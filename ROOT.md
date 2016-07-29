@@ -8,7 +8,8 @@ Anything derived from TObject and representing it in julia.
 
 * Where are the Cxx-side objects stored?
 * When can julia gc collect a TObject?
-* Should TObject backed classes have a name (TObject::GetName)?
+* What to do with TObject::GetName()
+* julia-side naming of ROOT classes.
 
 # IO
 TFile, TDirectory etc.
