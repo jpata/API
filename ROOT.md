@@ -26,7 +26,7 @@ TTree, TChain related
 # Histograms
 
 * Interface for Histogram
-  * **Suggestion:** http://histogrammar.org/ (https://github.com/histogrammar/Histogrammar.jl); this is a platform-agnostic language for histograms that I'm in discussions with the ROOT team about integrating into ROOT. (Likely for PyROOT, maybe a C++ version for ROOT 7.) The Julia version of this interface would of course link into StatsBase.
+* possibly Histogrammar.jl as the common backend https://github.com/jpata/API/pull/2
 
 # Misc
 
