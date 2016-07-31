@@ -3,10 +3,12 @@ we document the discussion the proposed julia API for ROOT.
 This document is meant to be short and with code examples.
 In the end, it should serve as a guide for ROOT users trying out julia.
 
-# Object
+# Object 
 Anything derived from TObject and representing it in julia.
 
-* Where are the Cxx-side objects stored? [Issue #1](https://github.com/jpata/API/issues/1)
+[discussion](https://github.com/jpata/API/issues/1)
+
+* Where are the Cxx-side objects stored?
 * When can julia gc collect a TObject?
 * What to do with TObject::GetName()
 * julia-side naming of ROOT classes.
@@ -14,14 +16,18 @@ Anything derived from TObject and representing it in julia.
 # IO
 TFile, TDirectory etc.
 
+[discussion](https://github.com/jpata/API/issues/4)
+
 * How to get rid of global file
 * Semantics for writing objects to file
 * Interface for TFile, TDirectory
 
 # Tabular data
-TTree, TChain related
+TTree, TChain related.
 
-* Interface for TTree, TChain [Issue #3](https://github.com/jpata/API/issues/3)
+[discussion](https://github.com/jpata/API/issues/3)
+
+* Interface for TTree, TChain 
 
 # Histograms
 
