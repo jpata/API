@@ -26,7 +26,7 @@ TTree, TChain related
 # Histograms
 
 * Interface for Histogram
-* possibly Histogrammar.jl as the common backend https://github.com/jpata/API/pull/2
+* possibly Histogrammar.jl as the common backend: [discussion](https://github.com/jpata/API/pull/2)
 
 # Misc
 
