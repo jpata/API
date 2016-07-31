@@ -21,7 +21,7 @@ TFile, TDirectory etc.
 # Tabular data
 TTree, TChain related
 
-* Interface for TTree, TChain
+* Interface for TTree, TChain [Issue #3](https://github.com/jpata/API/issues/3)
 
 # Histograms
 
