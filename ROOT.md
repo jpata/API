@@ -28,8 +28,8 @@ TTree, TChain related.
 [discussion](https://github.com/jpata/API/issues/3)
 
 * Interface for TTree, TChain
-* keep interface minimal (e.g. TTreeReader)
-* DataFrame-like stuff in additional package
+* keep read interface minimal (e.g. TTreeReader)
+* DataFrame-like stuff (columnar access) in additional package
 
 # Histograms
 
