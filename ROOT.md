@@ -10,7 +10,7 @@ Anything derived from TObject and representing it in julia.
 
 * Where are the Cxx-side objects stored?
 * When can julia gc collect a TObject?
-* What to do with TObject::GetName()
+* What to do with TObject::GetName(): ignore names (empty)
 * julia-side naming of ROOT classes.
 
 # IO
@@ -27,7 +27,9 @@ TTree, TChain related.
 
 [discussion](https://github.com/jpata/API/issues/3)
 
-* Interface for TTree, TChain 
+* Interface for TTree, TChain
+* keep interface minimal (e.g. TTreeReader)
+* DataFrame-like stuff in additional package
 
 # Histograms
 
@@ -38,3 +40,10 @@ TTree, TChain related.
 
 For each of these points, we can make issues where the discussion will be stored. Proposals can be PR-d into this document.
 Let's keep it matter-of-fact and concise.
+
+## Examples of complex projects with Cxx.jl
+
+Might be good to see what conventions have been adopted generally in julia/Cxx.jl-land.
+
+* https://github.com/maxruby/OpenCV.jl
+* ...
