@@ -6,7 +6,7 @@ In the end, it should serve as a guide for ROOT users trying out julia.
 # Object
 Anything derived from TObject and representing it in julia.
 
-* Where are the Cxx-side objects stored? [Issue #1](https://github.com/JuliaHEP/API/issues/1)
+* Where are the Cxx-side objects stored? [Issue #1](https://github.com/jpata/API/issues/1)
 * When can julia gc collect a TObject?
 * What to do with TObject::GetName()
 * julia-side naming of ROOT classes.
