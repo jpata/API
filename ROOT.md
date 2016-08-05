@@ -46,4 +46,5 @@ Let's keep it matter-of-fact and concise.
 Might be good to see what conventions have been adopted generally in julia/Cxx.jl-land.
 
 * https://github.com/maxruby/OpenCV.jl
+* https://github.com/JuliaComputing/ArrayFire.jl/
 * ...
